@@ -5,6 +5,7 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    // ignore: todo
     // TODO: implement build
     return MaterialApp(
       debugShowCheckedModeBanner: false,
@@ -17,23 +18,23 @@ class MyApp extends StatelessWidget {
               CircleAvatar(
                 backgroundColor: Colors.blue[100],
                 radius: 123.0,
-                child: Image(
+                child: const Image(
                   image: AssetImage("images/woolly.png"),
                 ),
               ),
-              Text(
+              const Text(
                 "Dolly the Sheep",
                 style: TextStyle(
                     color: Colors.black,
                     fontSize: 50,
                     fontFamily: "IndieFlower"),
               ),
-              Text(
+              const Text(
                 "first cloned mammal",
                 style: TextStyle(
                     color: Colors.black87, fontSize: 35, fontFamily: "Shadows"),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
                 width: 150,
                 child: Divider(
@@ -41,7 +42,7 @@ class MyApp extends StatelessWidget {
                   color: Colors.black,
                 ),
               ),
-              Card(
+              const Card(
                 margin: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                 color: Color.fromRGBO(192, 222, 253, 1),
                 child: ListTile(
@@ -52,7 +53,7 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
               ),
-              Card(
+              const Card(
                 margin: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                 color: Color.fromRGBO(192, 222, 253, 1),
                 child: ListTile(
